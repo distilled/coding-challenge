@@ -1,5 +1,9 @@
 # Coding-Challenge
 
+## SETUP
+
+After cloning the repository run `npm install` and `npm start` to start the development server.
+
 ## The Beauty List
 
 ## Task
