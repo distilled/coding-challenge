@@ -1,0 +1,104 @@
+body {
+  margin: 15px;
+  font-family: "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+}
+
+.cosnova-logo {
+  position: absolute;
+  left: 15px; top: 15px;
+}
+
+.list-view-filters {
+  margin-left: 200px;
+}
+
+.list-view-results {
+  margin-top: 30px;
+}
+
+.list-view-result {
+  padding: 5px;
+  background: #efefef;
+  margin-bottom: 1px;
+}
+
+.search-input {
+  margin-left: 10px;
+}
+
+.spinner {
+  height: 100px;
+  background-image: url("/spinner.gif");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 32px 32px; 
+}
+
+table td, table th {
+  text-align: left;
+  padding: 2px;
+}
+
+table th {
+  font-weight: bold;
+}
+
+ul.colors {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.colors li {
+  width: 32px;
+  height: 32px;
+  float: left;
+  border: 1px solid black;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+ul.colors:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.detail-view-container {
+  position: relative;
+}
+
+.product-image {
+  max-height: 200px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.product-image:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.product-description {
+
+}
+
+.product-price {
+  
+}
+
+.back-link {
+  position: absolute;
+  top: 5px; right: 15px;
+}
+
+.product-name {
+  margin-right: 50px;
+}
